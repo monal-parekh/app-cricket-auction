@@ -78414,7 +78414,7 @@ Ext.define('AuctionApp.view.main.MainController', {extend:Ext.app.ViewController
   var data = playerProfiles[newVal];
   if (data) {
     var objProfile = Ext.getCmp('playerProfile'), objFno = Ext.getCmp('playerFormNo'), objName = Ext.getCmp('playerName'), objPlace = Ext.getCmp('playerPlace'), objAge = Ext.getCmp('playerAge'), objExp = Ext.getCmp('playerExp'), objCat = Ext.getCmp('playerCat'), objPic = Ext.getCmp('playerImg');
-    objPic.setSrc('resources/images/' + newVal + '.JPG');
+    objPic.setSrc('resources/images/' + newVal + '.jpg');
     objFno.setText(': ' + newVal);
     objExp.setText(': ' + data.EXPERTISE);
     objName.setText(': ' + data.NAME);
